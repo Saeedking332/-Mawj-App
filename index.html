@@ -91,6 +91,16 @@
     @media(max-width:700px){.player-collapse{width:28px;height:28px}.player-fab{bottom:12px}.player-fab button{width:39px;height:39px}.player-fab .player-fab-play{width:43px;height:43px}}
 
     @media(max-width:700px){.sidebar{top:0;right:0;width:100%;height:60px;padding:10px 15px}.sidebar .brand{width:auto;flex-direction:row;gap:8px}.sidebar .brand-copy{display:block}.sidebar .brand-caption{display:none}.sidebar-drawer{top:60px;right:0;bottom:86px;width:min(300px,86vw);padding:18px 14px}.sidebar-backdrop{inset:60px 0 86px}.main{padding:82px 15px 112px}}
+
+    /* Mobile drawer visibility and compact top spacing */
+    @media(max-width:700px){
+      .sidebar .nav-list{display:grid!important}
+      .sidebar .section-label{display:block!important}
+      .main{padding-top:66px!important}
+    }
+    @media(min-width:701px){
+      .main{padding-top:78px}
+    }
   </style>
 </head>
 <body>
